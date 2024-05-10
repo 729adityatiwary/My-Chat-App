@@ -1,14 +1,39 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+//import { useState } from 'react'
+//import reactLogo from './assets/react.svg'
+//import viteLogo from '/vite.svg'
+import "./App.css";
+import Home from "./pages/home/Home";
+//import Login from "./pages/login/Login";
+//import SignUp from "./pages/signup/SignUp";
 
 function App() {
-  const [count, setCount] = useState(0)
+  //const [count, setCount] = useState(0)
 
   return (
+    <div className='p-4 h-screen flex items-center justtify-center'>
+      {/*<SignUp />*/}
+      <Home />
+    </div>
+  )
+}
+
+export default App;
+
+  /*return (
     <>
-      <div>
+      <button className="btn">Button</button>
+      <button className="btn btn-neutral">Neutral</button>
+      <button className="btn btn-primary">Primary</button>
+      <button className="btn btn-secondary">Secondary</button>
+      <button className="btn btn-accent">Accent</button>
+      <button className="btn btn-ghost">Ghost</button>
+      <button className="btn btn-link text">Link</button>
+    </>
+  )*/
+
+ /* return (
+    <>
+      /*<div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
@@ -29,7 +54,5 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
     </>
-  )
-}
+  )*/
 
-export default App
