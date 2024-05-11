@@ -18,7 +18,7 @@ const SignUp = () => {
 
   const handleCheckboxChange = (gender) => {
     setInputs({ ...inputs, gender });
-};
+    };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
