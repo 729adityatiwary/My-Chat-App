@@ -11,10 +11,10 @@ const Sidebar = () => {
         <Conversations />
         <LogoutButton />
     </div>
-  )
-}
+  );
+};
 
-export default Sidebar
+export default Sidebar;
 
 /* STARTER CODE FOR THIS FILE
 import SearchInput from "./SearchInput";
